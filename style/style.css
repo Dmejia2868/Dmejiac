@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+* {
+    margin: 5px 10px 10px 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+}
+.logo{
+    width: 100px;
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    gap: 50px
+    ;    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+.menu__item a {
+    color: blueviolet;
+    text-decoration: none;
+
+}
+.menu__item.active a {
+    text-decoration: underline double;
+}
+.imagenPrincipal {
+    background-image: url(../img/paisaje.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 20px;
+}
+.imagenPrincipal h2 {
+    color: brown;
+    background-color: aqua;
+    padding-inline: 20px;
+}
+.imagenPrincipal p {
+    color: rgb(4, 12, 12);
+    text-align: center center;
+}
+.tarjeta {
+    background-color: #00ffff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    
+}
+.tarjetas {
+   
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+.tarjeta__imagen{
+    max-width: 100%;
+}
+.pie {
+    background-color: rgb(13, 151, 151);
+    color: beige;
+    text-align: center;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    
+}
+
