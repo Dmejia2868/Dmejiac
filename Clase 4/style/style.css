@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;400;600;800&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Foldit', cursive;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.menu {
+    list-style-type: none;
+    background-color: red;
+    padding-block: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}    
+
+.menu__item {
+    display: inline-block;
+    margin-inline: 10px;
+    color: blue;
+
+}
+.menu__item a{
+    color:black;
+    text-decoration: none;
+
+}
+.menu__item.active a, .menu__item a:hover {
+    text-decoration: underline double;
+
+}
+
+main{
+    padding: 40px;
+}
+/*Caritas*/
+.cartita{
+    width: 300px;
+    background-color: rgb(174, 165, 182);
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-inline:1.5%;
+    margin-block: 20px;
+    overflow: auto;
+    position: relative;
+    border: 2px dashed black;
+}
+.cartita__imagen{
+    width: 100%;
+
+}
+.cartita__titulo{
+    font-size: 10;
+}
+
+.cartita__parrafo{
+    font-size: 10;
+
+}
+.cartita__boton{
+    background-color: rgb(127, 127, 160);
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cartita_imagen,
+.cartita__titulo,
+.cartita__parrafo{
+    margin-bottom: 10px;
+}
+.cartita_wsp{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.wsp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+}
