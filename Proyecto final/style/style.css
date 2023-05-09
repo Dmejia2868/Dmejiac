@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;400;600;800&family=Raleway:ital,wght@0,100;0,300;0,600;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&family=Vina+Sans&display=swap');
+* {
+    margin: 5px 10px 10px 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+}
+.logo{
+    width: 100px;
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    gap: 50px
+    ;    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+.menu__item a {
+    color: blueviolet;
+    text-decoration: none;
+
+}
+.menu__item.active a {
+    text-decoration: underline double;
+}
+.imagenPrincipal {
+    background-image: url(../img/imgprin.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+.imagenPrincipal h2 {
+    color: #fcf5f5;
+    background-color: rgb(10, 128, 128);
+    padding-inline: 20px;
+}
+.imagenPrincipal h3 {
+    color: #fcf5f5;
+    background-color: rgb(10, 128, 128);
+    padding-inline: 20px;
+}
+
+.imagenPrincipal p {
+    color: rgb(14, 3, 10);
+    background: white;
+    text-align: center center;
+    font-size: 25px;
+}
+.tarjeta {
+    background-color: #00ffff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    text-align: center;
+    
+       
+}
+.tarjetas {
+   
+    display: flex  ;
+    padding: 30px;
+    gap: 20px;
+}
+
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+.tarjeta__imagen{
+    max-width: 100%;
+}
+.pie {
+    background-color: rgb(13, 151, 151);
+    color: beige;
+    text-align: center;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    
+}
+.wsp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 150px;
+}
+
+
