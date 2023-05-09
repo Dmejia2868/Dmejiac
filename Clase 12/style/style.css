@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+* {
+    margin: 5px 10px 10px 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+}
+*::selection {
+    background: black;
+    color: #00ffff ;
+}
+.logo{
+    width: 100px;
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    gap: 50px
+    ;    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+.menu__item a {
+    background: white;
+    color: blueviolet;
+    text-decoration: none;
+    padding: 1rem; 
+    
+}
+.menu__item:nth-child(3) a{
+    background: black;
+    
+}
+.menu__item:first-child a {
+    background: #e01ae0;
+}
+.menu__item:last-child a {
+    background: #e6a57a;
+}
+.menu__item a:empty{
+    background: rgb(245, 19, 19);
+}
+
+.menu__item a:hover {
+    background: rgb(255, 0, 179);
+    color: rgb(245, 237, 237);
+    border: 2px solid white;
+
+
+}
+.menu__item.active a {
+    text-decoration: underline double;
+}
+.imagenPrincipal {
+    background-image: url(../img/lugar.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 30px;
+}
+.imagenPrincipal h2 {
+    color: brown;
+    background-color: rgb(7, 238, 96);
+    padding-inline: 20px;
+}
+.imagenPrincipal h2::first-letter{
+    color: #110411;
+    
+}
+.imagenPrincipal h2::first-letter {
+    background: rgb(180, 83, 83);
+    color: #87e67a;
+}
+.imagenPrincipal h2::selection {
+    background: black;
+    color: white ;
+}
+
+.imagenPrincipal p {
+    color: #200486;
+    text-align: center center;
+}
+.imagenPrincipal p::first-line {
+    color: rgb(238, 237, 237);
+    background: #e01ae0;
+    font-size: 15px;      
+    
+}
+.imagenPrincipal p::selection {
+    background: white;
+    color: #ec1bec;
+}
+.tarjeta {
+    background-color: #00ffff;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    
+}
+.tarjetas {
+   
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.informacion {
+    padding: 0 20px 20px 20px;
+}
+.tarjeta__imagen{
+    max-width: 100%;
+}
+.pie {
+    background-color: rgb(13, 151, 151);
+    color: beige;
+    text-align: center;
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: space-around;
+    
+}
+
