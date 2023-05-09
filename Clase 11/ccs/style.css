@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;400;600;800&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&family=Vina+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.hero {
+    background-image: url(../img/outfits1.jpg);
+    height: 90vh;
+}
